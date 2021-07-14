@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Zadanie3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='divmatma.css'>
+    <script src='skrypt.js'></script>
+</head>
+<body>
+    <div id="strona">
+    <div id="formularz">
+
+    <div id="skrypty">
+    <p>Podaj 7 cyfr, aby znaleźć największą z nich (oddziel je spacjami): <input type="text" id="liczby"></input></p>
+    <button type="button" id="button2" onclick="najwieksza(liczby.value)">Znajdź największą liczbę</button>
+
+    <p>Podaj numer elementu ciągu Fibonacciego: <input type="number" id="liczba"></input></p>
+    <button type="button" id="button3" onclick="fibonacci(liczba.value)">Oblicz</button>
+
+    <p>Podaj pierwszą liczbę do obliczenia NWD: <input type="text" id="NWD1"></input></p>
+    <p>Podaj drugą liczbę do obliczenia NWD: <input type="text" id="NWD2"></input></p>
+    <button type="button" id="button4" onclick="nwd(NWD1.value, NWD2.value)">Znajdź NWD</button>
+    </div>
+    
+    <div id="wyniki">
+        Wyniki:
+        <p id="wynikMaksimum"></p>
+        <p id="wynikFibonacci"></p>
+        <p id="wynikNwd"></p>
+    </div>
+
+
+
+</div>
+</body>
+</html>
